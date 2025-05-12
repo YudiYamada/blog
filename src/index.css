@@ -5,10 +5,26 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #0e1217;
+  color: #fff;
+}
+
 a {
   text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 li {
   list-style: none;
+}
+
+p {
+  color: #a9abb3;
 }

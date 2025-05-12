@@ -1,15 +1,29 @@
-.layout-container {
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* .layout-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
-}
+} */
 
-header,
-footer {
-  flex-shrink: 0;
-}
-
-main {
-  flex-grow: 1;
-  overflow-y: auto;
+.main-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 0 2rem;
+  padding-bottom: 27px;
 }
